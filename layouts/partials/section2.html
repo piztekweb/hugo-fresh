@@ -2,11 +2,12 @@
 {{- $title    := index $section2 "title" }}
 {{- $subtitle := index $section2 "subtitle" }}
 {{- $features := index $section2 "features" }}
-<section class="section is-medium">
+<section class="section is-medium"> 
+  <a id="section2"></a>
   <div class="container">
     <div class="columns">
       <div class="column is-centered-tablet-portrait">
-        <h1 class="title section-title"><a id="section2"></a>{{ $title }}</a></h1>
+        <h1 class="title section-title">{{ $title }}</h1>
         <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
         <div class="divider"></div>
       </div>
