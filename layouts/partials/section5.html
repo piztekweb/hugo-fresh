@@ -33,19 +33,19 @@
     <div class="content-wrapper">
       <div class="columns">
         <div class="column is-6 is-offset-3">
-          <form>
+          <form action="https://formspree.io/f/mqkwzepa" method="POST">
             <div class="columns is-multiline">
               <div class="column is-6">
-                <input class="input is-medium" type="text" placeholder="Tu nombre">
+                <input class="input is-medium" name="name" type="text" placeholder="Tu nombre" required="">
               </div>
               <div class="column is-6">
-                <input class="input is-medium" type="email" placeholder="Tu Correo Electronico">
+                <input class="input is-medium" name="_replyto" type="email" placeholder="Tu Correo Electronico" required="">
               </div>
               <div class="column is-12">
-                <textarea class="textarea" rows="10" placeholder="Escribe algo..."></textarea>
+                <textarea class="textarea" name="message" rows="10" placeholder="Escribe algo..." required=""></textarea>
               </div>
               <div class="form-footer has-text-centered mt-10">
-                <button class="button cta is-large primary-btn raised is-clear">Enviar</button>
+                <button class="button cta is-large primary-btn raised is-clear" type="submit" value="Submit">Enviar</button>
               </div>
             </div>
           </form>
